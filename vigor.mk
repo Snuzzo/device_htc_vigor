@@ -31,13 +31,11 @@ PRODUCT_PACKAGES += \
     offmode_charging \
     power_test
 
-# Ramdisk
+# Boot ramdisk setup
 PRODUCT_PACKAGES += \
-    fstab.vigor \
-    init.vigor.rc \
-    init.vigor.usb.rc \
-    ueventd.vigor.rc \
-    remount.vigor
+    fstab.qcom \
+    init.target.rc \
+    remount.qcom
 
 # Hostapd
 PRODUCT_COPY_FILES += \

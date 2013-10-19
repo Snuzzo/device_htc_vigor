@@ -90,7 +90,7 @@ BOARD_VOLD_MAX_PARTITIONS := 38
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/class/android_usb/android0/f_mass_storage/lun%d/file
 
 # Recovery
-TARGET_RECOVERY_FSTAB := device/htc/vigor/rootdir/etc/fstab.vigor
+TARGET_RECOVERY_FSTAB := device/htc/vigor/rootdir/etc/fstab.qcom
 BOARD_HAS_NO_SELECT_BUTTON := true
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_15x24.h\"
 BOARD_RECOVERY_SWIPE := true
