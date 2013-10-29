@@ -20,5 +20,4 @@
 # In particular, you can add lunch options with the add_lunch_combo
 # function: add_lunch_combo generic-eng
 
-add_lunch_combo htc_vigor-userdebug
-add_lunch_combo htc_vigor-eng
+add_lunch_combo mk_vigor-userdebug
