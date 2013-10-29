@@ -1,6 +1,9 @@
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 $(call inherit-product, device/htc/vigor/vigor.mk)
 
+# Overlays
+DEVICE_PACKAGE_OVERLAYS := device/htc/vigor/cm-overlay
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
