@@ -169,3 +169,5 @@ view.scroll_friction=0
 # Disable error checking
 ro.kernel.android.checkjni=0
 ro.kernel.checkjni=0
+
+sys.usb.config=mtp,adb

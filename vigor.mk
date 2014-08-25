@@ -16,7 +16,7 @@
 
 # Netflix fix
 PRODUCT_COPY_FILES += \
-	vendor/cm/prebuilt/common/etc/init.d/98netflix:system/etc/init.d/98netflix
+	device/htc/vigor/prebuilt/98netflix:system/etc/init.d/98netflix
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS := device/htc/vigor/overlay
