@@ -232,6 +232,11 @@ on boot
     chown system system sys/devices/platform/msm_ssbi.0/pm8058-core/pm8xxx-vib/amp
     chmod 666 sys/devices/platform/msm_ssbi.0/pm8058-core/pm8xxx-vib/amp
 
+    #KSM
+    write /sys/kernel/mm/ksm/pages_to_scan 100
+    write /sys/kernel/mm/ksm/sleep_millisecs 500
+    write /sys/kernel/mm/ksm/run 1
+
 # Services start here
 
 service kickstart /system/bin/qcks lc
